@@ -29,7 +29,7 @@ export const Home = () => {
       }
     };
     fetchReview();
-    if (cookies.access_token) fetchSavedReview();
+    if (cookies.access_token) fetchSavedReview(); 
   }, []);
 
   const saveReview = async (reviewID) => {
